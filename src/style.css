@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Manrope', sans-serif;
+}
+
+.App {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #1f2632;
+}
+
+.card {
+	display: flex;
+	min-width: 200px;
+	max-width: 540px;
+	min-height: 200px;
+ max-height: 315px;
+	padding: 30px 20px;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	border-radius: 15px;
+	background: #323a49;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+	color: #cee3e9;
+	text-align: center;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	letter-spacing: -0.24px;
+ padding: 20px 0px;
+}
+
+p {
+	color: #52ffa8;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	letter-spacing: 3.5px;
+	text-transform: uppercase;
+}
+
+button {
+	width: 64px;
+	height: 64px;
+	flex-shrink: 0;
+	display: grid;
+	place-items: center;
+	border: 0px;
+	border-radius: 50px;
+	background-color: #52ffa8;
+ cursor: pointer;
+ transition: 0.3s all;
+}
+
+button:hover {
+	box-shadow: 0px 0px 30px 0px #52ffa8, 0px 0px 5px 0px #52ffa8, 0px 0px 10px 0px #52ffa8;
+}
